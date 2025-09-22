@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Emergency Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/logo.png" alt="App Logo" class="logo">
+    <div class="hero-content">
+      <h1>Health Emergency Assistant</h1>
+      <p>Your emergency health companion at the click of a button.</p>
+      <button id="emergencyCall" onclick="callEmergency()">Call Emergency 🚨</button>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="feature">
+      <h3>Find Nearby Hospitals</h3>
+      <p>Locate the nearest hospitals instantly.</p>
+      <button class="feature-btn" onclick="findNearbyHospitals()">Find Hospitals</button>
+    </div>
+
+    <div class="feature">
+      <h3>Search Products</h3>
+      <p>Get essential first aid and health products online.</p>
+      <input type="text" id="searchQuery" placeholder="Search...">
+      <button class="feature-btn" onclick="searchProducts()">Search</button>
+    </div>
+
+    <div class="feature">
+      <h3>Voice Assistant</h3>
+      <p>Simulated assistant for quick support.</p>
+      <button class="feature-btn" onclick="startListening()">Start Listening</button>
+      <p id="voiceStatus">Status: Idle</p>
+    </div>
+  </section>
+
+  <!-- First Aid Guide Section -->
+  <section class="first-aid">
+    <h2>🩺 First Aid Guide</h2>
+
+    <button class="accordion-btn">Burns</button>
+    <div class="panel">
+      <ul>
+        <li>Cool burn with running water for at least 10 minutes.</li>
+        <li>Cover with sterile, non-fluffy dressing.</li>
+        <li>Seek medical attention for severe burns.</li>
+      </ul>
+    </div>
+
+    <button class="accordion-btn">Fractures</button>
+    <div class="panel">
+      <ul>
+        <li>Immobilize the injured area.</li>
+        <li>Apply a splint if trained.</li>
+        <li>Seek immediate medical help.</li>
+      </ul>
+    </div>
+
+    <button class="accordion-btn">CPR</button>
+    <div class="panel">
+      <ul>
+        <li>Check responsiveness and breathing.</li>
+        <li>Call emergency services.</li>
+        <li>Give 30 chest compressions followed by 2 rescue breaths.</li>
+      </ul>
+    </div>
+
+    <button class="accordion-btn">Choking</button>
+    <div class="panel">
+      <ul>
+        <li>Encourage coughing if possible.</li>
+        <li>If not breathing, perform abdominal thrusts (Heimlich maneuver).</li>
+        <li>Call emergency services if obstruction persists.</li>
+      </ul>
+    </div>
+
+    <button class="accordion-btn">Snake Bites</button>
+    <div class="panel">
+      <ul>
+        <li>Keep the victim calm and immobile.</li>
+        <li>Do not suck or cut the wound.</li>
+        <li>Seek medical help immediately.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What People Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <img src="images/user1.png" alt="User 1">
+        <p>"This platform saved my father's life during an emergency. Truly grateful!"</p>
+        <strong>- Aarti Sharma</strong>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/user2.jpg" alt="User 2">
+        <p>"Finding nearby hospitals instantly was a lifesaver. Highly recommend!"</p>
+        <strong>- Rajesh Kumar</strong>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/user3.jpg" alt="User 3">
+        <p>"Easy to use, fast, and reliable. Every home should have this!"</p>
+        <strong>- Priya Nair</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Health Emergency Assistant. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
