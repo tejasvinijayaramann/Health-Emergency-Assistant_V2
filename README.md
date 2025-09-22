@@ -1,8 +1,6 @@
 # Health Emergency Assistant
 Your emergency health companion at the click of a button.
 
-![App Logo](https://inquisitive-marshmallow-194dbf.netlify.app/assets/logo.png)
-
 ## 🚑 Overview
 
 The **Health Emergency Assistant** is a web application designed to provide immediate assistance during health emergencies. Whether it's locating nearby hospitals, accessing first aid guides, or using a voice assistant for quick support, this platform aims to be a lifesaver in critical situations.
